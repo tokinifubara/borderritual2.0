@@ -28,7 +28,7 @@ The simplest method to bypass this is to download and install [atom] and play th
 
 ### Launch File
 
-The game's file is located in the [empty-example/index.html] file. Open this file in your local browser if you used method one or in browser plus if you used method two.
+The game's file is [empty-example/index.html]. Launch this file in your default browser if you used method one or in browser plus if you used method two.
 
 This is my first try creating a game in Javascript, so it is not optimized properly.
 
