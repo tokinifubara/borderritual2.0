@@ -16,9 +16,19 @@ Click your mouse to move through cutscenes and jump
 
 Setting Up the Game on Your Computer
 --------------------------------------------
+
+### Method One
+
 This game requires a browser with a  [http-server] started in terminal to be played locally.
 
+
+### Method One
+
 The simplest method to bypass this is to download and install [atom] and play the game in the [browser plus] add-on.
+
+### Launch File
+
+The game's file is located in the [empty-example/index.html] file. Open this file in your local browser if you used method one or in browser plus if you used method two.
 
 This is my first try creating a game in Javascript, so it is not optimized properly.
 
@@ -29,3 +39,4 @@ Loading will take a while. Bear with me.
 [http-server]: https://www.npmjs.com/package/http-server
 [atom]: https://atom.io 
 [browser plus]: https://atom.io/packages/browser-plus
+[empty-example/index.html]: https://github.com/tokinifubara/borderritual2.0/blob/master/empty-example/index.html
