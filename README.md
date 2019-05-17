@@ -1,7 +1,7 @@
 borderritual2.0
 ============================================
 
-![Title](Figure\ 5.png)
+![Title](https://github.com/tokinifubara/borderritual2.0/blob/master/Figure%205.png)
 
 A 2D side-scroller made in p5.js library as part of a 6 week workshop with Code Liberation at the Victoria and Albert Museum in London.
 
