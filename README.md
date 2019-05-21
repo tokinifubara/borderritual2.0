@@ -19,7 +19,7 @@ Setting Up the Game on Your Computer
 
 ### Method One
 
-This game requires a browser with a  [http-server] started in terminal to be played locally.
+This game requires a browser with a  [local server] started in terminal to be played locally.
 
 
 ### Method One
@@ -36,7 +36,7 @@ Loading will take a while. Bear with me.
 
 
 
-[http-server]: https://www.npmjs.com/package/http-server
+[local server]: https://github.com/processing/p5.js/wiki/Local-server
 [atom]: https://atom.io 
 [browser plus]: https://atom.io/packages/browser-plus
 [empty-example/index.html]: https://github.com/tokinifubara/borderritual2.0/blob/master/empty-example/index.html
