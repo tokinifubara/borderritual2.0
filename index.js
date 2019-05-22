@@ -1,50 +1,7 @@
-// HTTP Portion
-var http = require('http');
-// Path module
-var path = require('path');
+var express = require('express');
+var app = express();
+var server = app.listen(8000);
 
-// Using the filesystem module
-var fs = require('fs');
+app.use(express.static('public'));
 
-var server = http.createServer(handleRequest);
-server.listen(8880);
-
-console.log('Server started on port 8880');
-
-function handleRequest(req, res) {
-  // What did we request?
-  var pathname = req.url;
-  
-  // If blank let's ask for index.html
-  if (pathname == '/') {
-    pathname = '/empty-example/index.html';
-  }
-  
-  // Ok what's our file extension
-  var ext = path.extname(pathname);
-
-  // Map extension to file type
-  var typeExt = {
-    '.html': 'text/html',
-    '.js':   'text/javascript',
-    '.css':  'text/css'
-  };
-  // What is it?  Default to plain text
-
-  var contentType = typeExt[ext] || 'text/plain';
-
-  // User file system module
-  fs.readFile(__dirname + pathname,
-    // Callback function for reading
-    function (err, data) {
-      // if there is an error
-      if (err) {
-        res.writeHead(500);
-        return res.end('Error loading ' + pathname);
-      }
-      // Otherwise, send the data, the contents of the file
-      res.writeHead(200,{ 'Content-Type': contentType });
-      res.end(data);
-    }
-  );
-}
+console.log("Server is running on port 8000");

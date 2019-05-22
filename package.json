@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/tokinifubara/borderritual2.0/issues"
   },
-  "homepage": "https://github.com/tokinifubara/borderritual2.0#readme"
+  "homepage": "https://github.com/tokinifubara/borderritual2.0#readme",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
 }
