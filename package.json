@@ -1,0 +1,22 @@
+{
+  "name": "borderritual2.0",
+  "version": "1.0.0",
+  "description": "A 2D side scroller set in the biometric border",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tokinifubara/borderritual2.0.git"
+  },
+  "keywords": [
+    "p5.js"
+  ],
+  "author": "Irene Tokini Fubara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tokinifubara/borderritual2.0/issues"
+  },
+  "homepage": "https://github.com/tokinifubara/borderritual2.0#readme"
+}
