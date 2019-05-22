@@ -28,7 +28,7 @@ The simplest method to bypass this is to download and install [atom] and play th
 
 ### Launch File
 
-The game's file is [empty-example/index.html]. Launch this file in your default browser if you used method one or in browser plus if you used method two.
+The game's file is [public/index.html]. Launch this file in your default browser if you used method one or in browser plus if you used method two.
 
 This is my first try creating a game in Javascript, so it is not optimized properly.
 
@@ -39,4 +39,4 @@ Loading will take a while. Bear with me.
 [local server]: https://github.com/processing/p5.js/wiki/Local-server
 [atom]: https://atom.io 
 [browser plus]: https://atom.io/packages/browser-plus
-[empty-example/index.html]: https://github.com/tokinifubara/borderritual2.0/blob/master/empty-example/index.html
+[public/index.html]: https://github.com/tokinifubara/borderritual2.0/blob/master/public/index.html
