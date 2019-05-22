@@ -68,7 +68,7 @@ function setup() {
 	);
 	overlayImg = loadAnimation(
 		'assets/Sprites/Overlay/Overlay0000.png',
-		'assets/Sprites/Overlay/Overlay0124.png',
+		'assets/Sprites/Overlay/Overlay0009.png',
 	);
 
 	queueImg = loadImage('assets/Sprites/queue1.png');
