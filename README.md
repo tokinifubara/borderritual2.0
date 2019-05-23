@@ -1,4 +1,4 @@
-borderritual2.0
+[borderritual2.0]
 ============================================
 
 ![Title](https://github.com/tokinifubara/borderritual2.0/blob/master/Figure%205.png)
@@ -35,7 +35,14 @@ This is my first try creating a game in Javascript, so it is not optimized prope
 Loading will take a while. Bear with me.
 
 
+TODO
+---------------------------------------------
 
+- [ ] Add loading page
+- [ ] Fix problem with Heroku not loading assets
+
+
+[borderritual2.0]: https://borderritual2.herokuapp.com
 [local server]: https://github.com/processing/p5.js/wiki/Local-server
 [atom]: https://atom.io 
 [browser plus]: https://atom.io/packages/browser-plus

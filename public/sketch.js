@@ -76,8 +76,8 @@ function setup() {
 	cloudImg = loadImage('assets/Sprites/Misc/clouds1.png');
 	groundImg = loadImage('assets/Sprites/Misc/BG_Ground1.png');
 
-	nkechiImg = loadImage('assets/Sprites/nkechi4.png');
-	nkechiJmp = loadImage('assets/Sprites/nkechi5.png');
+	nkechiImg = loadImage('assets/Sprites/Nkechi4.png');
+	nkechiJmp = loadImage('assets/Sprites/Nkechi5.png');
 	nkechiPassport = loadImage('assets/Sprites/Nkechi_passport.png');
 
 	nkechi = createSprite(width / 2, height / 2 + 50, 40, 40);
@@ -86,8 +86,8 @@ function setup() {
 	nkechi.addImage('stand', nkechiImg);
 	nkechi.addAnimation(
 		'walking',
-		'assets/Sprites/nkechi1.png',
-		'assets/Sprites/nkechi4.png',
+		'assets/Sprites/Nkechi1.png',
+		'assets/Sprites/Nkechi4.png',
 	);
 	nkechi.addImage('jump', nkechiJmp);
 
