@@ -39,7 +39,7 @@ TODO
 ---------------------------------------------
 
 - [ ] Add loading page
-- [ ] Fix problem with Heroku not loading assets
+- [ ] Optimize app for better performance on Heroku
 
 
 [borderritual2.0]: https://borderritual2.herokuapp.com
