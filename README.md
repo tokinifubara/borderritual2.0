@@ -22,7 +22,7 @@ Setting Up the Game on Your Computer
 This game requires a browser with a  [local server] started in terminal to be played locally.
 
 
-### Method One
+### Method Two
 
 The simplest method to bypass this is to download and install [atom] and play the game in the [browser plus] add-on.
 
