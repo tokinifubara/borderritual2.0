@@ -14,5 +14,42 @@ body {
   /* This centers our sketch vertically. */
   align-items: center;
   background-color: black;
+}
 
+#animations {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+h1, h2, h3 {
+  color: #f3b72e;
+  font-family: 'Didact Gothic', sans-serif;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 50%;"
+}
+
+#blink {
+  animation: blink 3s linear infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }

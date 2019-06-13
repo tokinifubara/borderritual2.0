@@ -23,23 +23,6 @@ function preload() {
 	soundtrack3 = loadSound('assets/Sprites/Misc/rthumbprint.mp3');
 	soundtrack4 = loadSound('assets/Sprites/Misc/Weary_ScrewednChopped.mp3');
 	myFont = loadFont('assets/Sprites/neural.ttf');
-}
-
-function setup() {
-	noCursor();
-	createCanvas(1080, 608);
-	frameRate(60);
-	soundtrack.setVolume(0.3);
-	soundtrack2.setVolume(0.3);
-	soundtrack3.setVolume(0.3);
-	soundtrack4.setVolume(0.3);
-	soundtrack4.loop();
-
-	textFont(myFont);
-
-	intro = createVideo('assets/Sprites/Nkechi.mp4');
-	intro.hide();
-	intro.stop();
 
 	airplane = loadAnimation(
 		'assets/Sprites/Airplane010.png',
@@ -61,7 +44,6 @@ function setup() {
 		'assets/Sprites/CutScene/cutscene130.png',
 		'assets/Sprites/CutScene/cutscene162.png',
 	);
-
 	gridMov = loadAnimation(
 		'assets/Sprites/ScreenSaver/screensaver000.png',
 		'assets/Sprites/ScreenSaver/screensaver300.png',
@@ -70,6 +52,24 @@ function setup() {
 		'assets/Sprites/Overlay/Overlay0000.png',
 		'assets/Sprites/Overlay/Overlay0009.png',
 	);
+
+}
+
+function setup() {
+	noCursor();
+	createCanvas(1080, 608);
+	frameRate(60);
+	soundtrack.setVolume(0.3);
+	soundtrack2.setVolume(0.3);
+	soundtrack3.setVolume(0.3);
+	soundtrack4.setVolume(0.3);
+	soundtrack4.loop();
+
+	textFont(myFont);
+
+	intro = createVideo('assets/Sprites/Nkechi.mp4');
+	intro.hide();
+	intro.stop();
 
 	queueImg = loadImage('assets/Sprites/queue1.png');
 	pillarImg = loadImage('assets/Sprites/pillar1.png');
@@ -94,11 +94,11 @@ function setup() {
 	ground = createSprite(0, GROUND_Y + 100); //image 800x200
 	ground.addImage(groundImg);
 
-	pillars = new Group();
-	queues = new Group();
-	papers = new Group();
-	clouds = new Group();
-	coins = new Group();
+	pillars = new Group(); // the pillars that say 'no photos'
+	queues = new Group();  // the stanchions
+	papers = new Group();  // the scanners-- this is from first iterations
+	clouds = new Group();  // the cameras
+	coins = new Group();   // the trickster tokens
 	gameOver = true;
 	updateSprites(true);
 

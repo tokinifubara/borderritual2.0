@@ -14,7 +14,7 @@ Instructions to Play the Game
 Click your mouse to move through cutscenes and jump
 
 
-Setting Up the Game on Your Computer
+Setting Up the Game on Your Compute
 --------------------------------------------
 
 ### Method One
@@ -35,11 +35,6 @@ This is my first try creating a game in Javascript, so it is not optimized prope
 Loading will take a while. Bear with me.
 
 
-TODO
----------------------------------------------
-
-- [ ] Add loading page
-- [ ] Optimize app for better performance on Heroku
 
 
 [borderritual2.0]: https://borderritual2.herokuapp.com
