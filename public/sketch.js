@@ -24,6 +24,32 @@ function preload() {
 	soundtrack4 = loadSound('assets/Sprites/Misc/Weary_ScrewednChopped.mp3');
 	myFont = loadFont('assets/Sprites/neural.ttf');
 
+	overlayImg = loadAnimation(
+		'assets/Sprites/Overlay/Overlay0000.png',
+		'assets/Sprites/Overlay/Overlay0009.png',
+	);
+	gridMov = loadAnimation(
+		'assets/Sprites/ScreenSaver/screensaver000.png',
+		'assets/Sprites/ScreenSaver/screensaver300.png',
+	);
+}
+
+function setup() {
+	noCursor();
+	createCanvas(1080, 608);
+	frameRate(60);
+	soundtrack.setVolume(0.3);
+	soundtrack2.setVolume(0.3);
+	soundtrack3.setVolume(0.3);
+	soundtrack4.setVolume(0.3);
+	soundtrack4.loop();
+
+	textFont(myFont);
+
+	intro = createVideo('assets/Sprites/Nkechi.mp4');
+	intro.hide();
+	intro.stop();
+	
 	airplane = loadAnimation(
 		'assets/Sprites/Airplane010.png',
 		'assets/Sprites/Airplane106.png',
@@ -44,32 +70,6 @@ function preload() {
 		'assets/Sprites/CutScene/cutscene130.png',
 		'assets/Sprites/CutScene/cutscene162.png',
 	);
-	gridMov = loadAnimation(
-		'assets/Sprites/ScreenSaver/screensaver000.png',
-		'assets/Sprites/ScreenSaver/screensaver300.png',
-	);
-	overlayImg = loadAnimation(
-		'assets/Sprites/Overlay/Overlay0000.png',
-		'assets/Sprites/Overlay/Overlay0009.png',
-	);
-
-}
-
-function setup() {
-	noCursor();
-	createCanvas(1080, 608);
-	frameRate(60);
-	soundtrack.setVolume(0.3);
-	soundtrack2.setVolume(0.3);
-	soundtrack3.setVolume(0.3);
-	soundtrack4.setVolume(0.3);
-	soundtrack4.loop();
-
-	textFont(myFont);
-
-	intro = createVideo('assets/Sprites/Nkechi.mp4');
-	intro.hide();
-	intro.stop();
 
 	queueImg = loadImage('assets/Sprites/queue1.png');
 	pillarImg = loadImage('assets/Sprites/pillar1.png');
