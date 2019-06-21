@@ -5,7 +5,7 @@
 
 A 2D side-scroller made in p5.js library as part of a 6 week workshop with Code Liberation at the Victoria and Albert Museum in London.
 
-In this game, you play Nkechi a migrant passing through the border. She experiences a moment of biometric failure during her border interview, which she has to intervene upon with her trickster tokens. Collect 20 tricskter tokens to beat the biometric system.
+In this game, you play Nkechi a migrant passing through the border. She experiences a moment of biometric failure during her border interview, which she has to intervene upon with her trickster tokens. Collect 20 trickster tokens to beat the biometric system.
 
 
 Instructions to Play the Game
@@ -14,7 +14,7 @@ Instructions to Play the Game
 Click your mouse to move through cutscenes and jump
 
 
-Setting Up the Game on Your Compute
+Setting Up the Game on Your Computer
 --------------------------------------------
 
 ### Method One
