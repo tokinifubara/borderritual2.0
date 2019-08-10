@@ -33,7 +33,7 @@ body {
   font-family: 'Didact Gothic', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, a {
   color: #f3b72e;
   font-family: 'Didact Gothic', sans-serif;
   text-align: center;
@@ -41,7 +41,18 @@ h1, h2, h3 {
   margin-right: auto;
   left: 0;
   right: 0;
-  width: 50%;"
+  width: 50%;
+}
+
+h2 {
+	position: fixed;
+	bottom: 0;
+	font-size: 12px;
+	width: 75%;
+}
+
+a {
+	font-size: 20px;
 }
 
 #blink {

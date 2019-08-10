@@ -272,9 +272,11 @@ function die() {
 	gameOver = true;
 }
 
-function deathstate() {
-	nkechi.rotation = -90;
-	nkechi.position.y = 500;
+function deathstate() { 
+	for (var dying = 0; dying < 90; dying++) { 
+		nkechi.rotation = 0 - dying;
+		nkechi.position.y = 500 + dying;
+	}
 }
 
 function newGame() {
