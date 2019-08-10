@@ -30,14 +30,14 @@ The simplest method to bypass this is to download and install [atom] and play th
 
 The game's file is [public/index.html]. Launch this file in your default browser if you used method one or in browser plus if you used method two.
 
-This is my first try creating a game in Javascript, so it is not optimized properly.
+This is my first try creating a game in JavaScript, so it is not optimized properly.
 
 Loading will take a while. Bear with me.
 
 
 
 
-[borderritual2.0]: https://borderritual2.herokuapp.com
+[borderritual2.0]: https://www.borderritual2.com
 [local server]: https://github.com/processing/p5.js/wiki/Local-server
 [atom]: https://atom.io 
 [browser plus]: https://atom.io/packages/browser-plus
