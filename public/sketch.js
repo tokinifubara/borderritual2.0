@@ -11,9 +11,22 @@ var myFont;
 var playScreen = 3;
 var intro, airplane, credits;
 var IntroText =
-	"Your ErrantBox passport\nsays you're Nkechi Eze,\n a Nigerian citizen\nwith freedom of movement.";
+	"Your ErrantBox passport\n\
+	says you're Nkechi Eze,\n\
+	a Nigerian citizen\n\
+	with freedom of movement.";
 var Title =
-	'Game Designer\nIrene Tokini Fubara\n\nSounds\n Weary by Solange\n\nVoice Acting by Helen Dixon\n\nMario Coin Sound by Alexander\nAvailable on Orange Free Sounds\n\nVideo Game Death/Lose Life Sound Effect\nby Sound Effects Factory\n\nThanks to Nonto, Tara, Charlie,\nSaskia and Phoenix from Code Liberation';
+	"Game Designer\n\
+	Irene Tokini Fubara\n\n\
+	Sounds\n\
+	Weary by Solange\n\n\
+	Voice Acting by Helen Dixon\n\n\
+	Mario Coin Sound by Alexander\n\
+	Available on Orange Free Sounds\n\n\
+	Video Game Death/Lose Life Sound Effect\n\
+	by Sound Effects Factory\n\n\
+	Thanks to Nonto, Tara, Charlie,\n\
+	Saskia and Phoenix from Code Liberation";
 
 function preload() {
 	soundtrack = loadSound('assets/Sprites/Misc/Mario-coin-sound_01.mp3');
