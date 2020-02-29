@@ -26,6 +26,16 @@ This game requires a browser with a  [local server] started in terminal to be pl
 
 The simplest method to bypass this is to download and install [atom] and play the game in the [browser plus] add-on.
 
+
+### Method Three
+
+If you have nodejs and npm installed on your computer, you can start the game with the index.js file.  
+`cd` into the borderritual2.0 directory and use the command:
+
+```
+borderritual2.0 $: npm install
+borderritual2.0 $: npm start
+```
 ### Launch File
 
 The game's file is [public/index.html]. Launch this file in your default browser if you used method one or in browser plus if you used method two.
