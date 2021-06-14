@@ -47,7 +47,7 @@ Loading will take a while. Bear with me.
 
 
 
-[borderritual2.0]: https://www.borderritual2.com
+[borderritual2.0]: https://borderritual2.herokuapp.com
 [local server]: https://github.com/processing/p5.js/wiki/Local-server
 [atom]: https://atom.io 
 [browser plus]: https://atom.io/packages/browser-plus
