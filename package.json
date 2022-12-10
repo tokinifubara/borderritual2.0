@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/tokinifubara/borderritual2.0#readme",
   "dependencies": {
-    "express": "^4.17.0"
+    "express": "^4.17.3"
   }
 }
